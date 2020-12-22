@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Giỏ hàng</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo.png">
+    <link rel="stylesheet" href="stylecart.css">
+</head>
+<body>
+
+    <!--Header-->
+    <header>
+        <div class="overlay">
+            <nav>
+                <a href="index.html"> <img src="images/logo.png" /></a>
+                <ul>
+                    <li><a href="index.html">TRANG CHỦ</a></li>
+                    <li><a href="portfolio-card-box-2.html">GIỚI THIỆU</a></li>
+                    <li><a href="blog.html">TIN TỨC</a></li>
+                    <li><a href="shop.html">SẲN PHẨM</a></li>
+                    <li><a href="contact.html">LIÊN HỆ</a></li>
+                    <li><a href="Guideline.html">HƯỚNG DẪN MUA HÀNG</a></li>
+
+
+                </ul>      <div>
+                    <ul class="menu-extra">
+                        <li> <ion-icon name="search-outline"></ion-icon></li>
+                        <li> <a href="login-register.html"> <ion-icon name="person-outline"></ion-icon></a></li>
+                        <li class="cart">
+                            <a href="cart.html">
+                                <ion-icon name="basket"></ion-icon> Giỏ hàng <span>0</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--Content-->
+    <center>
+        <div class="product-container">
+            <div class="product-header">
+                <h5 class="product-title">PRODUCT</h5>
+                <h5 class="price">PRICE</h5>
+                <h5 class="quantity">QUANTITY</h5>
+                <h5 class="total">TOTAL</h5>
+            </div>
+            <div class="products">
+
+            </div>
+
+            <button type="button" class="payment" onclick="ThanhToan()">
+                Thanh toán
+            </button>
+        </div>
+    </center>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <script>
+        function ThanhToan() {
+            alert("Thanh toán thành công");
+        }
+
+
+    </script>
+   
+</body>
+</html>
